@@ -64,6 +64,11 @@ CyclicBarrier : synchronise les threads après chaque batch afin d’afficher le
 --------------------------------------------------
    Erreurs 5xx : 22 (27.50% du total)
 
+⏱️ Affichage périodique :
+- Les statistiques **temporelles** s’affichent après chaque synchronisation des threads.
+- Les statistiques **cumulées** (depuis le début) sont mises à jour et affichées **toutes les 2 minutes**.
+
+
 3️. 🛡️ Sécurité des threads
 
    ConcurrentHashMap pour stocker les compteurs par URL.
